@@ -1,3 +1,12 @@
+function startsWithB(words) {
+  var array = []
+  for (var i = 0; i < words.length; i++)
+    if words[i].include?(b)
+  array.push(words[i])
+    return array
+  
+}
+
 function dwarfRollCall(dwarves) {
 var array = []
 for (var i = 0; i < dwarves.length; i++) {
@@ -25,7 +34,7 @@ function longPlaneteerCalls(words) {
 
 function findTheCheese (foods) {
   for (var i = 0; i < foods.length; i++) {
-    if (foods[i] === "cheddar" || foods[i] === "gouda" || foods[i] === "camembert")
+    if (foods[i] === "cheddar" || foods[i] === "gouda" || foods[i] === "camembert" || foods[i] === "swiss")
       return foods[i];
   }
   return "no cheese!";
